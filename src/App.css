@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  width:100%;
+  height:100vh;
+  background-image: url("https://blog.nasm.org/hubfs/Imported_Blog_Media/Learning-to-accept-and-let-go.jpg");
+  background-repeat: no-repeat;
+  background-position: "center center";
+  background-size:cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+.container-fluid {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  position:absolute;
+  top: 30%
+}
+
+body {
+  overflow: scroll;
+}
